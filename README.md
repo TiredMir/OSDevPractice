@@ -8,7 +8,7 @@ Why not? Motivation for writing code again, etc.
 ### How to run this?
 This repo will mostly be a BIOS bootloader for a while until I figure stuff out. And the way to run it would be to assemble the file into binary with: <br>
 `nasm -f bin .\boot.asm -o .\boot.bin` <br>
-and then run in with an emulator like QEMU with the following command: <br>
+And then run it with an emulator like QEMU with the following command: <br>
 `qemu-system-x86_64 .\boot.bin`
 
 ### Further resources
