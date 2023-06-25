@@ -10,3 +10,10 @@ This repo will mostly be a BIOS bootloader for a while until I figure stuff out.
 `nasm -f bin .\boot.asm -o .\boot.bin` <br>
 and then run in with an emulator like QEMU with the following command: <br>
 `qemu-system-x86_64 .\boot.bin`
+
+### Further resources
+The following are invaluable resources in the matter: <br>
+https://wiki.osdev.org/ <br>
+http://github.com/cfenollosa/os-tutorial/ <br>
+https://www.youtube.com/@OALABS <br>
+https://www.youtube.com/@OpenSecurityTraining <br>
