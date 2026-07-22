@@ -21,7 +21,7 @@ call print
 mov ax, 0x0800          ; Load kernel into segment 0x0800 (Physical Address = segment(0x0800) * 16 + offset (0x0000)) 
 mov es, ax              ; Set ES to 0x0800 
 mov bx, 0x0000          ; ES:BX = 0800:0000, physical address = 0x8000 
-                        ; (Technically we could place the kernel at 0x7DFF as it's right after the bootloader but everyone gives it a gap)
+                        ; (Technically we could place the kernel at 0x7E00 as it's right after the bootloader but everyone gives it a gap)
 mov ch, 0               ; Cylinder 0
 mov dh, 0               ; Head 0
 mov cl, 2               ; Sector 2 (The sector after our bootloader)
